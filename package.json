@@ -4,7 +4,11 @@
   "description": "ejercicio práctico NTT DATA",
   "main": "index.js",
   "scripts": {
+
     "test": "cypress run --spec 'cypress/e2e/tests/purchase.test.cy.js' --headed -b chrome",
+    "testAllure": "cypress run --spec 'cypress/e2e/tests/**.test.cy.js' --headed -b chrome --env allure=true",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
+    "test:report:allure": "npm run testAllure && npm run report:allure",
     "cypress:open": "cypress open --browser chrome --e2e"
   },
   "repository": {
@@ -21,6 +25,7 @@
   },
   "homepage": "https://github.com/LAPCRimay/CypressTest#readme",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.37.0",
     "cypress": "^12.8.1",
     "cypress-mochawesome-reporter": "^3.3.0"
   }

@@ -1,0 +1,11 @@
+- No todos los elementos poseen id o mucho mejor un atributo para la automatización
+como el "data-test". El carrito de compras no tiene ninguno de los dos atributos.
+- No se presenta un pop up informando que el producto fue agregado.
+- Se presenta un mensaje informando que el campo First Name is required, sin embargo sería conveniente
+que el mensaje no se muestre para ninguno de los campos ya que se pintan en rojo, o se debería mostrar 
+para todos los campos que son obligatorios de una sola vez, no cada que se va llenando el formulario
+y los campos siguen bajando.
+    - El mensaje muestra la palabra "Error", esto no es aconsejable ya que el usuario se alarma cuando
+	piensa que existe un error en el sitio web.
+- La sesión se desconecta después de un tiempo, sin embargo sería bueno que rederija a la pantalla de login
+porque el usuario sigue trabajando en ella y al final de todo el proceso le muestra un error.
