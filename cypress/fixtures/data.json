@@ -1,0 +1,25 @@
+{
+  "users":{
+    "standard":{
+      "firstName": "standard",
+      "lastName": "user",
+      "postalCode": "1"
+    },
+    "locked":{
+      "firstName": "locked",
+      "lastName": "user",
+      "postalCode": "2"
+    },
+    "problem":{
+      "firstName": "problem",
+      "lastName": "user",
+      "postalCode": "3"
+    },
+    "performance":{
+      "firstName": "performance",
+      "lastName": "user",
+      "postalCode": "4"
+    }
+  },
+  "endMessage": "Thank you for your order!"
+}

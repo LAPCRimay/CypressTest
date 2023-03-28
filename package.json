@@ -1,0 +1,27 @@
+{
+  "name": "testautomated",
+  "version": "1.0.0",
+  "description": "ejercicio práctico NTT DATA",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec 'cypress/e2e/tests/purchase.test.cy.js' --headed -b chrome",
+    "cypress:open": "cypress open --browser chrome --e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LAPCRimay/CypressTest.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "lorenapadilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LAPCRimay/CypressTest/issues"
+  },
+  "homepage": "https://github.com/LAPCRimay/CypressTest#readme",
+  "devDependencies": {
+    "cypress": "^12.8.1",
+    "cypress-mochawesome-reporter": "^3.3.0"
+  }
+}
