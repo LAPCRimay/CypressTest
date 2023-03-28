@@ -60,8 +60,6 @@ describe("Compra de productos", () => {
             });
 
         });
-
-        cy.wait(5000)
         productpage.clickFinish();
         productpage.elements.endTitle().contains(endTitle);
     });
