@@ -9,3 +9,4 @@ y los campos siguen bajando.
 	piensa que existe un error en el sitio web.
 - La sesión se desconecta después de un tiempo, sin embargo sería bueno que rederija a la pantalla de login
 porque el usuario sigue trabajando en ella y al final de todo el proceso le muestra un error.
+- No existe validación en los campos del formulario para completar la compra.
