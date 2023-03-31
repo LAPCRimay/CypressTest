@@ -16,4 +16,4 @@ Se ejecutan las pruebas generando:
 
 
 NOTA: Si se desea probar con más de 2 productos cambiar el valor de la variable 'numProducts'
-en el archivo cypress.config.js y volver a ejecutar npm run test
+en el archivo cypress.config.js y volver a ejecutar npm run test:report:allure
