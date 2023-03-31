@@ -16,6 +16,7 @@ module.exports = defineConfig({
     numProducts: 2
   },
   e2e: {
+    testIsolation: false,
     baseUrl: 'https://www.saucedemo.com/',
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);

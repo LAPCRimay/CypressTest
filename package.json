@@ -4,7 +4,6 @@
   "description": "ejercicio práctico NTT DATA",
   "main": "index.js",
   "scripts": {
-
     "test": "cypress run --spec 'cypress/e2e/tests/**.test.cy.js' --headed -b chrome",
     "testAllure": "cypress run --spec 'cypress/e2e/tests/**.test.cy.js' --headed -b chrome --env allure=true",
     "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
